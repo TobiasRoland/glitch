@@ -1,10 +1,24 @@
+# Scala stuff
 *.class
-*.log
-target
+**/target/
+
+# IDE
 .idea
+*.iml
 .bsp
-.bloop
+out
+.run
+
+# Metals
+.metals/
+.bloop/
+metals.sbt
+.vscode
+.history
+
+# MacOS
 .DS_Store
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+secrets.env
+
+*.code-workspace

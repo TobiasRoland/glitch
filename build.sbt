@@ -14,10 +14,11 @@ lazy val commonSettings = Seq(
   libraryDependencies ++= Seq(
     "org.typelevel" %% "cats-effect"    % "3.5.4",
     "org.typelevel" %% "cats-effect"    % "3.5.4",
+    "org.typelevel" %% "log4cats-slf4j" % "2.7.0",
     "org.scodec"    %% "scodec-core"    % "2.3.1",
     "co.fs2"        %% "fs2-core"       % "3.11.0",
     "co.fs2"        %% "fs2-scodec"     % "3.11.0",
-    "org.typelevel" %% "log4cats-slf4j" % "2.7.0"
+    "org.slf4j"      % "slf4j-simple"   % "2.0.16" // for now
   )
 )
 
