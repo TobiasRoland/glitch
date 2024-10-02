@@ -11,7 +11,7 @@ import java.nio.charset.Charset
 package object mostly {
 
   type BitCodec[A] = scodec.Codec[A]
-  
+
   type FourAsciiChars = String :| Match["""\p{ASCII}{4}"""]
 
   val asciiCharset: Charset = Charset.forName("ASCII")
